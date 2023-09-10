@@ -1,0 +1,26 @@
+{
+  "name": "klesti",
+  "displayName": "Klesti",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Klesti Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Klesti-dark.json"
+      },
+      {
+        "label": "Klesti Palenight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Klesti-palenight.json"
+      }
+    ]
+  }
+}
